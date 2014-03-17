@@ -1,0 +1,15 @@
+Introduce el programa fuente
+> > > > > El programa introducido es:
+0: PUSH 65
+1: ADD
+2: PUSH 2
+3: OUT
+> Comienza la ejecucion de  PUSH 65
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: <vacia>
+Pila de operandos: 65
+Comienza la ejecucion de  ADD
+Error en la ejecucion de la instruccion
+> Comienza la ejecucion de  ADD
+Error en la ejecucion de la instruccion
+> 

@@ -1,0 +1,5 @@
+apila 65
+push 65
+out
+halt
+end

@@ -1,0 +1,23 @@
+Introduce el programa fuente
+> > > > > El programa introducido es:
+0: PUSH 2
+1: PUSH 3
+2: ADD
+3: HALT
+> Comienza la ejecucion de  PUSH 2
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: <vacia>
+Pila de operandos: 2
+> Comienza la ejecucion de  PUSH 3
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: <vacia>
+Pila de operandos: 2 3
+Comienza la ejecucion de  ADD
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: <vacia>
+Pila de operandos: 5
+Comienza la ejecucion de  HALT
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: <vacia>
+Pila de operandos: 5
+> 

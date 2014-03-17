@@ -1,0 +1,299 @@
+Introduce el programa fuente
+> > > > > > > > > > > > > > > > > > > > > El programa introducido es:
+0: PUSH 0
+1: STORE 0
+2: PUSH 1
+3: STORE 1
+4: LOAD 0
+5: PUSH 3
+6: GT
+7: BT 19
+8: LOAD 1
+9: LOAD 0
+10: MULT
+11: LOAD 1
+12: ADD
+13: STORE 1
+14: LOAD 0
+15: PUSH 1
+16: ADD
+17: STORE 0
+18: JUMP 4
+19: HALT
+> Comienza la ejecucion de  PUSH 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: <vacia>
+Pila de operandos: 0
+Comienza la ejecucion de  STORE 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0
+Pila de operandos: <vacia>
+Comienza la ejecucion de  PUSH 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0
+Pila de operandos: 1
+Comienza la ejecucion de  STORE 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: <vacia>
+Comienza la ejecucion de  LOAD 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: 0
+Comienza la ejecucion de  PUSH 3
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: 0 3
+Comienza la ejecucion de  GT
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: 0
+Comienza la ejecucion de  BT 19
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: <vacia>
+Comienza la ejecucion de  LOAD 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: 1
+Comienza la ejecucion de  LOAD 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: 1 0
+Comienza la ejecucion de  MULT
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: 0
+Comienza la ejecucion de  LOAD 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: 0 1
+Comienza la ejecucion de  ADD
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: 1
+Comienza la ejecucion de  STORE 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: <vacia>
+Comienza la ejecucion de  LOAD 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: 0
+Comienza la ejecucion de  PUSH 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: 0 1
+Comienza la ejecucion de  ADD
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:0 [1]:1
+Pila de operandos: 1
+Comienza la ejecucion de  STORE 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:1
+Pila de operandos: <vacia>
+Comienza la ejecucion de  JUMP 4
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:1
+Pila de operandos: <vacia>
+Comienza la ejecucion de  LOAD 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:1
+Pila de operandos: 1
+Comienza la ejecucion de  PUSH 3
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:1
+Pila de operandos: 1 3
+Comienza la ejecucion de  GT
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:1
+Pila de operandos: 0
+Comienza la ejecucion de  BT 19
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:1
+Pila de operandos: <vacia>
+Comienza la ejecucion de  LOAD 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:1
+Pila de operandos: 1
+Comienza la ejecucion de  LOAD 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:1
+Pila de operandos: 1 1
+Comienza la ejecucion de  MULT
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:1
+Pila de operandos: 1
+Comienza la ejecucion de  LOAD 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:1
+Pila de operandos: 1 1
+Comienza la ejecucion de  ADD
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:1
+Pila de operandos: 2
+Comienza la ejecucion de  STORE 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:2
+Pila de operandos: <vacia>
+Comienza la ejecucion de  LOAD 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:2
+Pila de operandos: 1
+Comienza la ejecucion de  PUSH 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:2
+Pila de operandos: 1 1
+Comienza la ejecucion de  ADD
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:1 [1]:2
+Pila de operandos: 2
+Comienza la ejecucion de  STORE 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:2
+Pila de operandos: <vacia>
+Comienza la ejecucion de  JUMP 4
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:2
+Pila de operandos: <vacia>
+Comienza la ejecucion de  LOAD 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:2
+Pila de operandos: 2
+Comienza la ejecucion de  PUSH 3
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:2
+Pila de operandos: 2 3
+Comienza la ejecucion de  GT
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:2
+Pila de operandos: 0
+Comienza la ejecucion de  BT 19
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:2
+Pila de operandos: <vacia>
+Comienza la ejecucion de  LOAD 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:2
+Pila de operandos: 2
+Comienza la ejecucion de  LOAD 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:2
+Pila de operandos: 2 2
+Comienza la ejecucion de  MULT
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:2
+Pila de operandos: 4
+Comienza la ejecucion de  LOAD 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:2
+Pila de operandos: 4 2
+Comienza la ejecucion de  ADD
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:2
+Pila de operandos: 6
+Comienza la ejecucion de  STORE 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:6
+Pila de operandos: <vacia>
+Comienza la ejecucion de  LOAD 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:6
+Pila de operandos: 2
+Comienza la ejecucion de  PUSH 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:6
+Pila de operandos: 2 1
+Comienza la ejecucion de  ADD
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:2 [1]:6
+Pila de operandos: 3
+Comienza la ejecucion de  STORE 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:6
+Pila de operandos: <vacia>
+Comienza la ejecucion de  JUMP 4
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:6
+Pila de operandos: <vacia>
+Comienza la ejecucion de  LOAD 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:6
+Pila de operandos: 3
+Comienza la ejecucion de  PUSH 3
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:6
+Pila de operandos: 3 3
+Comienza la ejecucion de  GT
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:6
+Pila de operandos: 0
+Comienza la ejecucion de  BT 19
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:6
+Pila de operandos: <vacia>
+Comienza la ejecucion de  LOAD 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:6
+Pila de operandos: 6
+Comienza la ejecucion de  LOAD 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:6
+Pila de operandos: 6 3
+Comienza la ejecucion de  MULT
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:6
+Pila de operandos: 18
+Comienza la ejecucion de  LOAD 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:6
+Pila de operandos: 18 6
+Comienza la ejecucion de  ADD
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:6
+Pila de operandos: 24
+Comienza la ejecucion de  STORE 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:24
+Pila de operandos: <vacia>
+Comienza la ejecucion de  LOAD 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:24
+Pila de operandos: 3
+Comienza la ejecucion de  PUSH 1
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:24
+Pila de operandos: 3 1
+Comienza la ejecucion de  ADD
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:3 [1]:24
+Pila de operandos: 4
+Comienza la ejecucion de  STORE 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:4 [1]:24
+Pila de operandos: <vacia>
+Comienza la ejecucion de  JUMP 4
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:4 [1]:24
+Pila de operandos: <vacia>
+Comienza la ejecucion de  LOAD 0
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:4 [1]:24
+Pila de operandos: 4
+Comienza la ejecucion de  PUSH 3
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:4 [1]:24
+Pila de operandos: 4 3
+Comienza la ejecucion de  GT
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:4 [1]:24
+Pila de operandos: 1
+Comienza la ejecucion de  BT 19
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:4 [1]:24
+Pila de operandos: <vacia>
+Comienza la ejecucion de  HALT
+El estado de la maquina tras ejecutar la instruccion es:
+Memoria: [0]:4 [1]:24
+Pila de operandos: <vacia>
+> 

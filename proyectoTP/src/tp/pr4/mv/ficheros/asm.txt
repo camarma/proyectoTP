@@ -1,0 +1,8 @@
+push 67;
+push 69;
+out
+out
+out
+in
+halt
+;

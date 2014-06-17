@@ -12,7 +12,7 @@ import tp.pr5.mv.Model.exceptions.ParseException;
  * @author George y Alberto
  *
  */
-
+ 
 public class Prompt {
 	private static String END_TOKEN = "QUIT"; 
 	private static String MSG_PROMPT = "> ";

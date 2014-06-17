@@ -1,5 +1,5 @@
 package tp.pr5.mv.Model.IO;
-
+ 
 /**
  * Clase hija de InMethod encargada de la entrada vacia.
  * @author George y Alberto

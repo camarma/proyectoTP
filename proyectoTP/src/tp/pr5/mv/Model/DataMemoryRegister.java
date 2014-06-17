@@ -4,7 +4,7 @@ package tp.pr5.mv.Model;
  * @author George y Alberto
  *
  */
-
+ 
 public class DataMemoryRegister {
 	private int dir;//Direccion que le pasas al store. ejemplo STORE (3,4) -> 3 es pos, 4 es value
 	private int value;

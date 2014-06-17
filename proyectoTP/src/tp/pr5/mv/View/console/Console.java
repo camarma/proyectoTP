@@ -1,5 +1,5 @@
 package tp.pr5.mv.View.console;
-
+ 
 import tp.pr5.mv.Controller.Controller;
 import tp.pr5.mv.Model.CPU;
 import tp.pr5.mv.Model.Instruction;

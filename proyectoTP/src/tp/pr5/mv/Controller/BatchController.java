@@ -1,5 +1,5 @@
 package tp.pr5.mv.Controller;
-
+ 
 import tp.pr5.mv.Model.CPU;
 
 /**

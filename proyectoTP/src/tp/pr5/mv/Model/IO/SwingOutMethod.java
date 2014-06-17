@@ -1,6 +1,6 @@
 package tp.pr5.mv.Model.IO;
 import tp.pr5.mv.View.gui.OutputPanel;
-
+ 
 /**
  * Clase hija de OutMethod encargada de la entrada en modo swing.
  * @author George y Alberto

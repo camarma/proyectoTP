@@ -1,5 +1,5 @@
 package tp.pr5.mv.Model.IO;
-
+ 
 import tp.pr5.mv.View.gui.InputPanel;
 
 /**

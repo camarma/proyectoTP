@@ -10,7 +10,7 @@ import tp.pr5.mv.Model.exceptions.memory.MemoryException;
  * @author George y Alberto.
  *
  */
-
+ 
 public class Memory extends Observable<Memory.Observer>{
 	private DataMemoryRegister [] memory;
 	private int cima;

@@ -4,8 +4,6 @@ import java.util.Arrays;
 
 import tp.pr5.mv.Model.exceptions.stack.StackException;
 
-
-
 /**
  * Clase encargada de representar la pila de operandos.
  * @author George y Alberto

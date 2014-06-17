@@ -1,5 +1,5 @@
 package tp.pr5.mv.Model.exceptions.cp;
-
+ 
 import tp.pr5.mv.Model.exceptions.MVException;
 
 public class CpException  extends MVException{

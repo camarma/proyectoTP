@@ -1,5 +1,5 @@
 package tp.pr5.mv.Model.exceptions.stack;
-
+ 
 /**
  * Clase encargada de controlar las excepciones producidas por un error en la pila.
  * 

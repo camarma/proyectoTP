@@ -6,7 +6,7 @@ package tp.pr5.mv.Model.exceptions;
  *
  */
 public class ParseException extends MVException{
-	
+	 
 	/**
 	 * 
 	 */

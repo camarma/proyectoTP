@@ -11,7 +11,6 @@ import javax.swing.border.TitledBorder;
 
 import tp.pr5.mv.Controller.SwingController;
 
-
 /**
  * Clase encargada de pintar el toolbar panel en la ventana
  * @author George y Alberto

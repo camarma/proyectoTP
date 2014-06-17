@@ -32,7 +32,7 @@ import tp.pr5.mv.Model.IO.StdOutMethod;
 import tp.pr5.mv.Model.IO.SwingOutMethod;
 import tp.pr5.mv.View.console.Console;
 import tp.pr5.mv.View.gui.MainWindow;
-
+ 
 /**
  * Clase principal que únicamente incluye el método main.
  * @author George y Alberto

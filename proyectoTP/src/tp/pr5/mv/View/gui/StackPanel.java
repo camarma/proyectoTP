@@ -20,7 +20,6 @@ import tp.pr5.mv.Model.OperandStack;
 import tp.pr5.mv.Model.OperandStack.Data;
 import tp.pr5.mv.Controller.SwingController;
 
-
 /**
  * Clase encargada de pintar el panel de la pila en la ventana
  * @author George y Alberto

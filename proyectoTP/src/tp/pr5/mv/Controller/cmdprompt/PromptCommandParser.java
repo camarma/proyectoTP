@@ -12,7 +12,7 @@ import tp.pr5.mv.Model.exceptions.ParseException;
  * @author George y Alberto
  *
  */
-
+ 
 public class PromptCommandParser {
 	
 	static PromptCommand [] cmds = {new Step(), new Steps(), new Run(), new  Write(), new Pop(), new Push()};
